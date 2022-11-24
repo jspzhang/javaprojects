@@ -53,7 +53,6 @@ public class RomanToIntTest {
 		Solution solution = new Solution();
 		String testString = "VIII";
 		int result = 8;
-		System.out.println("This is a test case.");
 		System.out.println("Input roman " + testString);
 		assertEquals(solution.romanToInt(testString), result);
 
